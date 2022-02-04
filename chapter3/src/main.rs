@@ -12,4 +12,5 @@ fn main() {
     function::five();
     flow_control::if_expression();
     flow_control::let_with_if();
+    flow_control::loops();
 }
