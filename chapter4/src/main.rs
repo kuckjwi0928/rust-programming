@@ -1,6 +1,7 @@
 mod memory_safe;
 mod function_ownership;
 mod reference;
+mod slice;
 
 fn main() {
     memory_safe::basic();
@@ -31,4 +32,7 @@ fn main() {
     let mut hello = String::from("Hello");
 
     reference::variable_reference(&mut hello);
+
+    println!("{}", slice::first_word(&String::from("Hello World!")));
+    slice::string_slice();
 }
