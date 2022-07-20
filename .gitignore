@@ -1,4 +1,5 @@
 **/**/target
+._target
 .idea
 *.lock
 *.iml
